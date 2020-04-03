@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bb0e4f9e-e68e-4ec5-aca8-576f4e135f87" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/software/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\software\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZnnX6hjoQB9qzYk4ovbjkfYFPI" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.7.2/jsoup-1.7.2-sources.jar!/META-INF" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="inlay.hints.JAVA" />
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install" />
+      <command value="mvn import" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.ConfigTest">
+    <configuration name="ConfigTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.maoyan.spyder.ConfigTest" />
+      <module name="JavaSpyderTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.maoyan.spyder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PoolTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.maoyan.spyder.PoolTest" />
+      <module name="JavaSpyderTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.maoyan.spyder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostParamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.maoyan.spyder.PostParamTest" />
+      <module name="JavaSpyderTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.maoyan.spyder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.maoyan.spyder.PostTest" />
+      <module name="JavaSpyderTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.maoyan.spyder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpyderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.maoyan.spyder.SpyderTest" />
+      <module name="JavaSpyderTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.maoyan.spyder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ConfigTest" />
+        <item itemvalue="Application.PoolTest" />
+        <item itemvalue="Application.PostParamTest" />
+        <item itemvalue="Application.PostTest" />
+        <item itemvalue="Application.SpyderTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bb0e4f9e-e68e-4ec5-aca8-576f4e135f87" name="Default Changelist" comment="" />
+      <created>1585483761795</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585483761795</updated>
+      <workItem from="1585483764464" duration="473000" />
+      <workItem from="1585484260220" duration="1274000" />
+      <workItem from="1585485558027" duration="1921000" />
+      <workItem from="1585547243684" duration="3649000" />
+      <workItem from="1585554606266" duration="2634000" />
+      <workItem from="1585560574285" duration="837000" />
+      <workItem from="1585561432979" duration="423000" />
+      <workItem from="1585561880028" duration="2354000" />
+      <workItem from="1585564264048" duration="849000" />
+      <workItem from="1585565435306" duration="277000" />
+      <workItem from="1585567435964" duration="297000" />
+      <workItem from="1585572561679" duration="69000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="70" key="#Project_Structure" timestamp="1585564388084">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="70" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1585564388084" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1585563652083">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585563652083" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1585567733286">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585567733286" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1585567733286">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585567733286" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1585567733286">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585567733286" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1585567733286">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585567733286" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1585552882667">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585552882667" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1585552882667">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1585552882667" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1585552882667">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1585552882667" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1585552882667">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1585552882667" />
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1585564127962">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="299" y="67" key="Maven.ArtifactSearchDialog/0.0.1536.824@0.0.1536.824" timestamp="1585564127962" />
+    <state x="270" y="0" key="SettingsEditor" timestamp="1585567514495">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1585567514495" />
+    <state x="377" y="0" width="782" height="824" key="find.popup" timestamp="1585564969700">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="377" y="0" width="782" height="824" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1585564969700" />
+    <state x="178" y="107" key="new project wizard" timestamp="1585565710318">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="178" y="107" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1585565710318" />
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1585562082526">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1585562082526" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1585564171949">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1585564171949" />
+  </component>
+</project>

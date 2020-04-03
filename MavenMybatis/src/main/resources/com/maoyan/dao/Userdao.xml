@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+ <mapper namespace="com.maoyan.dao.Userdao">
+    <select id="findAllUser" resultType="com.maoyan.pojo.User">
+        select * from user_table
+    </select>
+
+    <select id="findFristUser" resultType="com.maoyan.pojo.User">
+        select * from user_table where uid=1
+    </select>
+</mapper>

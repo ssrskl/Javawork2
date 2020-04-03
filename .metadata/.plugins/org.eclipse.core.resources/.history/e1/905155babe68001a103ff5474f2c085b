@@ -1,0 +1,11 @@
+package com.maoyan.Spyder;
+
+public class getImage {
+	public getImage() {
+		// TODO Auto-generated constructor stub
+		
+	}
+	public static String getImageString() {
+		
+	}
+}

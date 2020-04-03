@@ -1,0 +1,24 @@
+package com.maoyan.Spyder;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class getImage {
+	private static String targetStr;
+	private static String patternStr;
+	public getImage(String targetStr,String patternStr) {
+		// TODO Auto-generated constructor stub
+		this.targetStr=targetStr;
+		this.patternStr=patternStr;
+	}
+	public static String getimageString() {
+		  Pattern pattern = Pattern.compile(patternStr);
+		  // 定义一个matcher用来做匹配
+		  Matcher matcher = pattern.matcher(targetStr);
+		  if (matcher.find()) {
+			return matcher.group(1);
+		}
+		return patternStr;
+		
+	}
+}

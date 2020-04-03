@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+ <!-- servlet配置 -->
+ <servlet>
+ 	<servlet-name>my</servlet-name>
+ 	<servlet-class>com.bjsxt.servlet.MyServlet</servlet-class>
+ </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletLife</servlet-name>
+    <servlet-class>com.bjsxt.servlet.ServletLife</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletMethod</servlet-name>
+    <servlet-class>com.bjsxt.servlet.ServletMethod</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RequestServlet</servlet-name>
+    <servlet-class>com.bjsxt.servlet.RequestServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ResponseServlet</servlet-name>
+    <servlet-class>com.bjsxt.servlet.ResponseServlet</servlet-class>
+  </servlet>
+
+
+
+
+ <servlet-mapping>
+ 	<servlet-name>my</servlet-name>
+ 	<url-pattern>/my</url-pattern>
+ </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletLife</servlet-name>
+    <url-pattern>/life</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletMethod</servlet-name>
+    <url-pattern>/method</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RequestServlet</servlet-name>
+    <url-pattern>/req</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ResponseServlet</servlet-name>
+    <url-pattern>/resp</url-pattern>
+  </servlet-mapping>
+</web-app>

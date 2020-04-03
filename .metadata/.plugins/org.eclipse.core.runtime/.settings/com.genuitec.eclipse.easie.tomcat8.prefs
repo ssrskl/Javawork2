@@ -1,0 +1,9 @@
+ENDORSED_DIRS="D\:\\software\\apache-tomcat-9.0.31/common/endorsed"
+JDK_HOME=C\:\\Program Files\\Java\\jdk1.8.0_181
+JDK_INSTALLATION_NAME=jdk1.8.0_181
+LIBRARY_PATH="C\:\\Program Files\\Java\\jdk1.8.0_181\\bin;D\:\\software\\apache-tomcat-9.0.31\\bin"
+SERVER_ENABLEMENT=true
+TOMCAT_BASE=D\:\\software\\apache-tomcat-9.0.31
+TOMCAT_HOME=D\:\\software\\apache-tomcat-9.0.31
+TOMCAT_TEMP=D\:\\software\\apache-tomcat-9.0.31\\temp
+eclipse.preferences.version=1

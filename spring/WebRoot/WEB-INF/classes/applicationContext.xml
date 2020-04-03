@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!-- id表示获取到对象标识
+    	 class 创建哪个类的对象
+     -->
+    <!-- <bean id="people1" class="com.catjava.pojo.People">
+    	<constructor-arg index="0" name="years" type="int" value="18"></constructor-arg>
+    	<constructor-arg index="1" name="name" type="String" value="maoyan"></constructor-arg>
+    	<constructor-arg index="2" name="sex" type="boolean" value="1"></constructor-arg>
+    </bean> -->
+    
+    <!-- 创建工厂对象 -->
+    <!-- <bean id="factory" class="com.catjava.pojo.PeopleFactory">
+    </bean>
+    <bean id="people2" factory-bean="factory" factory-method="newInstance"></bean>
+    
+    <bean id="people3" class="com.catjava.pojo.PeopleFactory" factory-method="newInstance2"
+    ></bean> -->
+    
+    <bean id="people4" class="com.catjava.pojo.People">
+    	<property name="years">
+    		<value>30</value>
+    	</property>
+    	<property name="name">
+    		<value>maoyan3</value>
+    	</property>
+    	<property name="sex">
+    		<value>true</value>
+    	</property>
+    	<!-- Set类型 -->
+    	<property name="setsSet">
+    		<set>
+    			<value>01set</value>
+    			<value>02set</value>
+    			<value>03set</value>
+    		</set>
+    	</property>
+    	
+    	<!-- List类型 -->
+    	<property name="listsList">
+    		<list>
+    			<value>01list</value>
+    			<value>02list</value>
+    			<value>03list</value>
+    		</list>
+    	</property>
+    	
+    	<!-- 数组 -->
+    	<property name="strings">
+    		<array>
+    			<value>01数组</value>
+    			<value>02数组</value>
+    			<value>03数组</value>
+    		</array>
+    	</property>
+    	
+    	<!-- Map类型 -->
+    	<property name="mapsMap">
+    		<map>
+    			<entry key="01" value="map1"></entry>
+    			<entry key="02" value="map2"></entry>
+    			<entry key="03" value="map3"></entry>
+    		</map>
+    	</property>
+    	
+    	<!-- Properties 类型 -->
+    	<property name="properties">
+    		<props>
+    			<prop key="01">properties1</prop>
+    			<prop key="02">properties2</prop>
+    			<prop key="03">properties3</prop>
+    		</props>
+    	</property>
+    	
+    	<!-- girlfriend类 -->
+    	<property name="girlFriend" ref="grilfriend">
+    	</property>
+    	
+    </bean>
+    
+    <!-- GirlFriend -->
+    <bean id="grilfriend" class="com.catjava.pojo.GirlFriend">
+    	<!-- 赋值进去 -->
+    	<property name="years">
+    		<value>18</value>
+    	</property>
+    	
+    	<property name="hobby">
+    		<value>play games</value>
+    	</property>
+    </bean>
+    
+</beans>

@@ -1,0 +1,14 @@
+package com.maoyan.Spyder;
+
+import java.io.IOException;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
+
+public class SpyderTest {
+	public static void main(String[] args) throws IOException {
+		URL url = new URL("http://www.baidu.com");
+		HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
+		httpURLConnection.setRequestMethod("GET");
+	}
+}

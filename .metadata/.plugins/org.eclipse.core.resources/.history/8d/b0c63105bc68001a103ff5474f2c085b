@@ -1,0 +1,9 @@
+package com.maoyan.Spyder;
+
+import java.net.URL;
+
+public class SpyderTest {
+	public static void main(String[] args) {
+		URL url = new URL("http://www.baidu.com");
+	}
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<deployments>
+  <deployment alt-context-root="" context-root="/MySelvert" deployment-path="D:/JavaWork2/.metadata/.me_tcat/webapps/MySelvert" project-name="MySelvert" server-id="myeclipseTomcatServer" state="DEPLOYED" type="WEB"/>
+  <deployment alt-context-root="" context-root="/mg" deployment-path="D:/software/apache-tomcat-9.0.31/webapps/mg" project-name="Manger2" server-id="tomcat8Server" state="ERROR" status="Project modules hierarchy is inconsistent with deployment" type="WEB"/>
+  <deployment alt-context-root="" context-root="/mq" deployment-path="D:/software/apache-tomcat-9.0.31/webapps/mq" project-name="manger22" server-id="tomcat8Server" state="REDEPLOY" status="Deployment is out of date due to changes in the underlying project contents. You'll need to manually 'Redeploy' the project to update the deployed archive." type="WEB"/>
+  <deployment alt-context-root="" context-root="/login" deployment-path="D:/software/apache-tomcat-9.0.31/webapps/login" project-name="04-Login" server-id="tomcat8Server" state="DEPLOYED" type="WEB"/>
+  <deployment alt-context-root="" context-root="/mg" deployment-path="D:/JavaWork2/.metadata/.me_tcat7/webapps/mg" project-name="09-Manager" server-id="myeclipseTomcatServer7" state="DEPLOYED" type="WEB"/>
+  <deployment alt-context-root="" context-root="/mg" deployment-path="D:/software/apache-tomcat-9.0.31/webapps/mg" project-name="09-Manager" server-id="tomcat8Server" should-backup="true" state="DEPLOYED" type="WEB"/>
+  <deployment alt-context-root="" context-root="/mq" deployment-path="D:/JavaWork2/.metadata/.me_tcat7/webapps/mq" project-name="manger22" server-id="myeclipseTomcatServer7" state="DEPLOYED" type="WEB"/>
+  <deployment alt-context-root="" context-root="/MySelvert" deployment-path="D:/software/apache-tomcat-9.0.31/webapps/MySelvert" project-name="MySelvert" server-id="tomcat8Server" state="DEPLOYED" type="WEB"/>
+  <deployment context-root="/FristServlet" deployment-path="D:/software/apache-tomcat-9.0.31/webapps/FristServlet" project-name="FristServlet" server-id="tomcat8Server" state="DEPLOYED" type="WEB"/>
+</deployments>

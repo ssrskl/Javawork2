@@ -1,0 +1,28 @@
+package com.maoyan.Spyder;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+
+public class SpyderTest {
+	public static void main(String[] args) throws IOException {
+		URL url = new URL("https://www.baidu.com/");
+		HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();
+		httpURLConnection.setRequestMethod("GET");
+		httpURLConnection.setRequestProperty("User-Agent","Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:72.0) Gecko/20100101 Firefox/72.0");
+		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(httpURLConnection.getInputStream(),"utf-8"));
+		String string = null;
+		while (null!=(string=bufferedReader.readLine())) {
+			System.out.println(string);
+			
+		}
+		bufferedReader.close();
+		getImage.getimageString();
+	}
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--
+    scope
+    默认为：单例
+    prototype:多例
+    -->
+    <!--
+    生命周期
+    单例：容器创建-容器死亡
+    多例：对象被创建时-对象长时间不用，有java回收器销毁
+    -->
+    <bean id="ioctest" class="com.maoyan.dao.impl.SpringIoctestimpl" scope="prototype"
+    init-method="init" destroy-method="destory"></bean>
+</beans>
