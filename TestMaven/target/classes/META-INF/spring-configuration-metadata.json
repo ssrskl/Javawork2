@@ -1,0 +1,11 @@
+{
+  "groups": [
+    {
+      "name": "person",
+      "type": "com.maoyan.controller.SecondController",
+      "sourceType": "com.maoyan.controller.SecondController"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}

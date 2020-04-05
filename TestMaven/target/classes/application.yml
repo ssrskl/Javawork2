@@ -1,0 +1,9 @@
+server:
+  #端口号
+  port: 8081
+
+person:
+  name: maoyan
+  age: 18
+mybatis:
+  mapper-locations: classpath:mapper/*Mapper.xml

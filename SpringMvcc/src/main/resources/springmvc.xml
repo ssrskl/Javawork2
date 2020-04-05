@@ -20,6 +20,18 @@
         <property name="suffix" value=".jsp"/>
     </bean>
 
+
+<!--    配置类型转换器-->
+    <bean id="conversionServiceFactoryBean" class="org.springframework.context.support.ConversionServiceFactoryBean">
+        <property name="converters">
+            <set>
+                <bean class="com.maoyan.utils.StringToDate"></bean>
+            </set>
+        </property>
+    </bean>
+
 <!--    开启MVC的注解支持-->
-    <mvc:annotation-driven/>
+    <!--这里的值就是类型转换器的id-->
+    <mvc:annotation-driven conversion-service="conversionServiceFactoryBean"/>
+
 </beans>

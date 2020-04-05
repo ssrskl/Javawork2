@@ -1,0 +1,95 @@
+2020-04-05 18:43:52.122  INFO 15956 --- [main] Example                                  : Starting Example on DESKTOP-TF4FLQ6 with PID 15956 (D:\JavaWork2\TestMaven\target\classes started by HASEE in D:\JavaWork2\TestMaven)
+2020-04-05 18:43:52.127  INFO 15956 --- [main] Example                                  : No active profile set, falling back to default profiles: default
+2020-04-05 18:43:53.173  INFO 15956 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-04-05 18:43:53.191  INFO 15956 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-05 18:43:53.192  INFO 15956 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-05 18:43:53.194  INFO 15956 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-04-05 18:43:53.194  INFO 15956 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-04-05 18:43:53.195  INFO 15956 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-04-05 18:43:53.199  INFO 15956 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-04-05 18:43:53.301  INFO 15956 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-05 18:43:53.302  INFO 15956 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1102 ms
+2020-04-05 18:43:53.509  INFO 15956 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-05 18:43:53.705  INFO 15956 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-04-05 18:43:53.708  INFO 15956 --- [main] Example                                  : Started Example in 2.262 seconds (JVM running for 4.148)
+2020-04-05 18:44:07.429  INFO 15956 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-05 18:44:07.430  INFO 15956 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-05 18:44:07.441  INFO 15956 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2020-04-05 18:57:22.958  INFO 1828 --- [main] Example                                  : Starting Example on DESKTOP-TF4FLQ6 with PID 1828 (D:\JavaWork2\TestMaven\target\classes started by HASEE in D:\JavaWork2\TestMaven)
+2020-04-05 18:57:22.966  INFO 1828 --- [main] Example                                  : No active profile set, falling back to default profiles: default
+2020-04-05 18:57:24.041  INFO 1828 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-04-05 18:57:24.061  INFO 1828 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-05 18:57:24.061  INFO 1828 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-05 18:57:24.063  INFO 1828 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-04-05 18:57:24.063  INFO 1828 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-04-05 18:57:24.063  INFO 1828 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-04-05 18:57:24.068  INFO 1828 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-04-05 18:57:24.158  INFO 1828 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-05 18:57:24.159  INFO 1828 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1119 ms
+2020-04-05 18:57:24.336  INFO 1828 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-05 18:57:24.510  INFO 1828 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-04-05 18:57:24.513  INFO 1828 --- [main] Example                                  : Started Example in 2.169 seconds (JVM running for 4.033)
+2020-04-05 18:57:31.966  INFO 1828 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-05 18:57:31.967  INFO 1828 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-05 18:57:31.980  INFO 1828 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2020-04-05 19:09:09.806  INFO 13832 --- [restartedMain] c.m.controller.MySpringBootApplication   : Starting MySpringBootApplication on DESKTOP-TF4FLQ6 with PID 13832 (D:\JavaWork2\TestMaven\target\classes started by HASEE in D:\JavaWork2\TestMaven)
+2020-04-05 19:09:09.812  INFO 13832 --- [restartedMain] c.m.controller.MySpringBootApplication   : No active profile set, falling back to default profiles: default
+2020-04-05 19:09:09.916  INFO 13832 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-05 19:09:09.916  INFO 13832 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-05 19:09:12.145  INFO 13832 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-04-05 19:09:12.169  INFO 13832 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-05 19:09:12.172  INFO 13832 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-05 19:09:12.178  INFO 13832 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-04-05 19:09:12.179  INFO 13832 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-04-05 19:09:12.179  INFO 13832 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-04-05 19:09:12.189  INFO 13832 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-04-05 19:09:12.345  INFO 13832 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-05 19:09:12.345  INFO 13832 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2428 ms
+2020-04-05 19:09:12.744  INFO 13832 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-05 19:09:13.022  INFO 13832 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-05 19:09:13.125  INFO 13832 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-04-05 19:09:13.137  INFO 13832 --- [restartedMain] c.m.controller.MySpringBootApplication   : Started MySpringBootApplication in 4.132 seconds (JVM running for 7.59)
+2020-04-05 19:09:20.644  INFO 13832 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-05 19:09:20.645  INFO 13832 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-05 19:09:20.655  INFO 13832 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-04-05 19:10:53.890  INFO 11616 --- [restartedMain] c.m.controller.MySpringBootApplication   : Starting MySpringBootApplication on DESKTOP-TF4FLQ6 with PID 11616 (D:\JavaWork2\TestMaven\target\classes started by HASEE in D:\JavaWork2\TestMaven)
+2020-04-05 19:10:53.894  INFO 11616 --- [restartedMain] c.m.controller.MySpringBootApplication   : No active profile set, falling back to default profiles: default
+2020-04-05 19:10:54.003  INFO 11616 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-05 19:10:54.004  INFO 11616 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-05 19:10:55.324  INFO 11616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-04-05 19:10:55.339  INFO 11616 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-05 19:10:55.340  INFO 11616 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-05 19:10:55.343  INFO 11616 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-04-05 19:10:55.344  INFO 11616 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-04-05 19:10:55.344  INFO 11616 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-04-05 19:10:55.350  INFO 11616 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-04-05 19:10:55.441  INFO 11616 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-05 19:10:55.441  INFO 11616 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1437 ms
+2020-04-05 19:10:55.663  INFO 11616 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-05 19:10:55.823  INFO 11616 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-05 19:10:55.873  INFO 11616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-04-05 19:10:55.878  INFO 11616 --- [restartedMain] c.m.controller.MySpringBootApplication   : Started MySpringBootApplication in 2.719 seconds (JVM running for 5.106)
+2020-04-05 19:11:00.446  INFO 11616 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-05 19:11:00.447  INFO 11616 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-05 19:11:00.453  INFO 11616 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-04-05 19:11:47.479  INFO 11616 --- [Thread-9] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-05 19:11:49.150  INFO 11616 --- [restartedMain] c.m.controller.MySpringBootApplication   : Starting MySpringBootApplication on DESKTOP-TF4FLQ6 with PID 11616 (D:\JavaWork2\TestMaven\target\classes started by HASEE in D:\JavaWork2\TestMaven)
+2020-04-05 19:11:49.151  INFO 11616 --- [restartedMain] c.m.controller.MySpringBootApplication   : No active profile set, falling back to default profiles: default
+2020-04-05 19:11:49.419  INFO 11616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2020-04-05 19:11:49.421  INFO 11616 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-05 19:11:49.422  INFO 11616 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-04-05 19:11:49.423  INFO 11616 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-04-05 19:11:49.423  INFO 11616 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-04-05 19:11:49.424  INFO 11616 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-04-05 19:11:49.424  INFO 11616 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-04-05 19:11:49.449  INFO 11616 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-05 19:11:49.449  INFO 11616 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 294 ms
+2020-04-05 19:11:49.510  INFO 11616 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-05 19:11:49.551  INFO 11616 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-05 19:11:49.568  INFO 11616 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2020-04-05 19:11:49.569  INFO 11616 --- [restartedMain] c.m.controller.MySpringBootApplication   : Started MySpringBootApplication in 0.453 seconds (JVM running for 58.798)
+2020-04-05 19:11:49.572  INFO 11616 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-04-05 19:11:49.730  INFO 11616 --- [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-05 19:11:49.731  INFO 11616 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-05 19:11:49.743  INFO 11616 --- [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 11 ms
+2020-04-05 19:25:27.568  INFO 11616 --- [Thread-16] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
